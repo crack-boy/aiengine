@@ -1,0 +1,15 @@
+{
+    "name": "engine/aiengine",
+    "description": "aiengine",
+    "keywords": [],
+    "type": "project",
+    "require": {
+        "php": ">=5.4.0",
+        "ext-json": "*"
+	},
+	"autoload": {
+        "psr-4": {
+            "engine\\aiengine\\":""
+        }
+    }
+}
